@@ -28,13 +28,23 @@ body, footer {
     margin-right: 32px;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .header-info {
     display: flex;
     justify-content: center;
     gap: 64px;
-}
-
-.left-side {
 }
 
 .right-side {
@@ -48,19 +58,6 @@ body, footer {
     text-align: center;
     color: #F9FAF8;
     font-size: 36px;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
 }
 
 button {
