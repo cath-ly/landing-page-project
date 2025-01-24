@@ -1,5 +1,10 @@
-head, body, footer {
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body, footer {
     font-family: 'Roboto';
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
 
 .header-container, .footer-container {
@@ -9,27 +14,40 @@ head, body, footer {
 
 .header-top{
     display: flex;
-    justify-content: space-around;
-}
-
-.header-info {
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
-}
-
-.left-side {
-    flex: 1 1 auto;
-}
-
-.right-side {
-    flex: 1 1 auto;
-    background-color: pink;
+    justify-content: space-between;
 }
 
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 32px;
+}
+
+.right-links {
+    align-self: center;
+    margin-right: 32px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.left-side {
+}
+
+.right-side {
+    background-color: pink;
+    width: 600px;
+    height: 300px;
+    align-content: center;
+}
+
+.image {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 36px;
 }
 
 ul {
